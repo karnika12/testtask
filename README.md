@@ -1,4 +1,5 @@
-# testtask
-# testtask
-# testtask
-# testtask
+Command to build a docker image:
+docker build -t node .
+Command to run an image:
+docker run -itd -p 3000:3000 node
+
